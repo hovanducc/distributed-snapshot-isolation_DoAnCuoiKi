@@ -20,5 +20,10 @@ output/
 Thumbs.db
 ~$*.docx
 
+# Local untracked files
+Support file/
+src/client/test_crash_recovery.py
+
+
 
 
