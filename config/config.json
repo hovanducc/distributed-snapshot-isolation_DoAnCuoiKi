@@ -1,0 +1,38 @@
+{
+  "coordinator": {
+    "host": "127.0.0.1",
+    "port": 8000,
+    "url": "http://127.0.0.1:8000"
+  },
+  "nodes": {
+    "store_front": {
+      "id": "store_front",
+      "name": "Site 1 - Store Front",
+      "host": "127.0.0.1",
+      "port": 8001,
+      "url": "http://127.0.0.1:8001",
+      "db_path": "data/store_front.db",
+      "product_id_range": {
+        "start": 1,
+        "end": 999,
+        "type": "odd"
+      }
+    },
+    "back_office": {
+      "id": "back_office",
+      "name": "Site 2 - Back Office",
+      "host": "127.0.0.1",
+      "port": 8002,
+      "url": "http://127.0.0.1:8002",
+      "db_path": "data/back_office.db",
+      "product_id_range": {
+        "start": 2,
+        "end": 1000,
+        "type": "even"
+      }
+    }
+  },
+  "simulation": {
+    "network_latency_seconds": 0.05
+  }
+}
