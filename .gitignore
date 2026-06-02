@@ -13,20 +13,12 @@ data/*.json
 # Benchmark output files (automatically generated)
 output/
 
-# IDE and OS files
+# OS & IDE
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 ~$*.docx
 
-# Academic documents (local only, do not push to GitHub)
-guide.md
-plan.md
-proposal.md
-design_document.md
-analysis_report.md
-video_script.md
-*.docx
-*.pdf
+
 
